@@ -1,6 +1,7 @@
 import React from "react";
-import { MdFormatQuote } from "react-icons/md";
-import Chrome from "../assets/icons/chrome.png";
+import Chrome from "../assets/icons/chrome.svg";
+import Brave from "../assets/icons/brave.svg";
+import Chromium from "../assets/icons/chromium.svg";
 import Wave from "react-wavify";
 
 const Hero = () => {
@@ -33,13 +34,45 @@ const Hero = () => {
             Streamline Your Life with a Free Shopify Store Scraper Extension
           </p>
 
-          {/* <button
+          <a
+            href="https://chrome.google.com/webstore/detail/scrape-sopify/aopgicojoddojlhodfdkmcbfjgainpff"
+            target="_blank"
             data-aos="fade-up"
-            class=" flex justify-center items-center gap-2 mt-4 bg-gradient-to-r from-gray-400 to-green-500 hover:from-green-500 hover:to-gray-400 text-white font-bold py-1.5 px-3 rounded-md border-2 border-white duration-300"
+            class=" flex cursor-pointer justify-center items-center gap-2 mt-4 bg-gradient-to-r from-gray-400 to-green-500 hover:from-green-500 hover:to-gray-400 text-white font-bold py-3 px-3 rounded-md border-2 border-white duration-300"
           >
-            <img src={Chrome} alt="" className="h-10 w-10 object-cover" />
-            <span className="text-white text-xl">Add to chrome</span>
-          </button> */}
+            <span className="text-white text-xl">
+              Add to your favourite browser
+            </span>
+          </a>
+          <div className="flex justify-center items-center mt-4 gap-2">
+            <a
+              href="https://chrome.google.com/webstore/detail/scrape-sopify/aopgicojoddojlhodfdkmcbfjgainpff"
+              target="_blank"
+            >
+              <img
+                src={Chrome}
+                className="object-cover w-12 h-12 hover:scale-110 duration-300"
+              />
+            </a>
+            <a
+              href="https://chrome.google.com/webstore/detail/scrape-sopify/aopgicojoddojlhodfdkmcbfjgainpff"
+              target="_blank"
+            >
+              <img
+                src={Chromium}
+                className="object-cover w-12 h-12 hover:scale-110 duration-300"
+              />
+            </a>
+            <a
+              href="https://chrome.google.com/webstore/detail/scrape-sopify/aopgicojoddojlhodfdkmcbfjgainpff"
+              target="_blank"
+            >
+              <img
+                src={Brave}
+                className="object-cover w-12 h-12  hover:scale-110 duration-300"
+              />
+            </a>
+          </div>
         </div>
       </div>
 
