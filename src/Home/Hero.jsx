@@ -7,7 +7,7 @@ import Wave from "react-wavify";
 const Hero = () => {
   return (
     <div className="wave-container">
-      <div className=" container pb-28 px-2" id="home">
+      <div className=" container pb-10 px-2" id="home">
         <div className="flex justify-center items-center flex-col pt-20">
           <h6
             data-aos="fade-left"
@@ -73,6 +73,15 @@ const Hero = () => {
               />
             </a>
           </div>
+        </div>
+
+        <div class="flex justify-center mt-6 aspect-w-8 aspect-h-4">
+          <iframe
+            src="https://www.youtube.com/embed/gCVjanWFj_g"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
         </div>
       </div>
 
